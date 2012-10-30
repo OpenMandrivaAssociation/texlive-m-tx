@@ -1,12 +1,12 @@
-# revision 26726
+# revision 28032
 # category Package
 # catalog-ctan /support/m-tx
-# catalog-date 2012-04-18 12:48:50 +0200
+# catalog-date 2012-10-16 15:37:47 +0200
 # catalog-license gpl
 # catalog-version 0.60d
 Name:		texlive-m-tx
 Version:	0.60d
-Release:	1
+Release:	2
 Summary:	A preprocessor for pmx
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/m-tx
@@ -40,8 +40,7 @@ M-Tx continues in use by those who prefer its language.
 %{_texmfdistdir}/scripts/m-tx/Windows/m-tx.bat
 %{_texmfdistdir}/scripts/m-tx/m-tx.lua
 %{_texmfdistdir}/tex/generic/m-tx/mtx.tex
-%doc %{_texmfdistdir}/doc/generic/m-tx/m-tx.1
-%doc %{_texmfdistdir}/doc/generic/m-tx/m-tx.1.pdf
+%doc %{_texmfdistdir}/doc/generic/m-tx/m-tx.html
 %doc %{_texmfdistdir}/doc/generic/m-tx/mtx060.pdf
 %doc %{_texmfdistdir}/doc/generic/m-tx/mtx060/Makefile
 %doc %{_texmfdistdir}/doc/generic/m-tx/mtx060/README
@@ -87,8 +86,7 @@ M-Tx continues in use by those who prefer its language.
 %doc %{_texmfdistdir}/doc/generic/m-tx/mtx060/title1.mtx
 %doc %{_texmfdistdir}/doc/generic/m-tx/mtx060/viva.mtx
 %doc %{_texmfdistdir}/doc/generic/m-tx/mtx060/volta.mtx
-%doc %{_texmfdistdir}/doc/generic/m-tx/prepmx.1
-%doc %{_texmfdistdir}/doc/generic/m-tx/prepmx.1.pdf
+%doc %{_texmfdistdir}/doc/generic/m-tx/prepmx.html
 %doc %{_mandir}/man1/m-tx.1*
 %doc %{_texmfdir}/doc/man/man1/m-tx.man1.pdf
 %doc %{_mandir}/man1/prepmx.1*
