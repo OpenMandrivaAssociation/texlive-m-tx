@@ -1,12 +1,12 @@
-# revision 26726
+# revision 29764
 # category Package
 # catalog-ctan /support/m-tx
-# catalog-date 2012-04-18 12:48:50 +0200
+# catalog-date 2013-01-20 14:45:16 +0100
 # catalog-license gpl
-# catalog-version 0.60d
+# catalog-version 0.60d 2013-01-19
 Name:		texlive-m-tx
 Version:	0.60d
-Release:	1
+Release:	2
 Summary:	A preprocessor for pmx
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/m-tx
@@ -37,11 +37,12 @@ M-Tx continues in use by those who prefer its language.
 #-----------------------------------------------------------------------
 %files
 %{_bindir}/m-tx
-%{_texmfdistdir}/scripts/m-tx/Windows/m-tx.bat
 %{_texmfdistdir}/scripts/m-tx/m-tx.lua
 %{_texmfdistdir}/tex/generic/m-tx/mtx.tex
-%doc %{_texmfdistdir}/doc/generic/m-tx/m-tx.1
-%doc %{_texmfdistdir}/doc/generic/m-tx/m-tx.1.pdf
+%doc %{_texmfdistdir}/doc/generic/m-tx/README
+%doc %{_texmfdistdir}/doc/generic/m-tx/m-tx.html
+%doc %{_texmfdistdir}/doc/generic/m-tx/mtx-install.pdf
+%doc %{_texmfdistdir}/doc/generic/m-tx/mtx-install.tex
 %doc %{_texmfdistdir}/doc/generic/m-tx/mtx060.pdf
 %doc %{_texmfdistdir}/doc/generic/m-tx/mtx060/Makefile
 %doc %{_texmfdistdir}/doc/generic/m-tx/mtx060/README
@@ -87,12 +88,11 @@ M-Tx continues in use by those who prefer its language.
 %doc %{_texmfdistdir}/doc/generic/m-tx/mtx060/title1.mtx
 %doc %{_texmfdistdir}/doc/generic/m-tx/mtx060/viva.mtx
 %doc %{_texmfdistdir}/doc/generic/m-tx/mtx060/volta.mtx
-%doc %{_texmfdistdir}/doc/generic/m-tx/prepmx.1
-%doc %{_texmfdistdir}/doc/generic/m-tx/prepmx.1.pdf
+%doc %{_texmfdistdir}/doc/generic/m-tx/prepmx.html
 %doc %{_mandir}/man1/m-tx.1*
-%doc %{_texmfdir}/doc/man/man1/m-tx.man1.pdf
+%doc %{_texmfdistdir}/doc/man/man1/m-tx.man1.pdf
 %doc %{_mandir}/man1/prepmx.1*
-%doc %{_texmfdir}/doc/man/man1/prepmx.man1.pdf
+%doc %{_texmfdistdir}/doc/man/man1/prepmx.man1.pdf
 
 #-----------------------------------------------------------------------
 %prep
@@ -106,14 +106,6 @@ pushd %{buildroot}%{_bindir}
     ln -sf %{_texmfdistdir}/scripts/m-tx/m-tx.lua m-tx
 popd
 mkdir -p %{buildroot}%{_datadir}
-cp -fpar texmf texmf-dist %{buildroot}%{_datadir}
+cp -fpar texmf-dist %{buildroot}%{_datadir}
 mkdir -p %{buildroot}%{_mandir}/man1
-mv %{buildroot}%{_texmfdir}/doc/man/man1/*.1 %{buildroot}%{_mandir}/man1
-
-
-%changelog
-* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.60d-1
-+ Revision: 813669
-- Import texlive-m-tx
-- Import texlive-m-tx
-
+mv %{buildroot}%{_texmfdistdir}/doc/man/man1/*.1 %{buildroot}%{_mandir}/man1
