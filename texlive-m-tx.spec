@@ -1,12 +1,12 @@
-# revision 29764
+# revision 32525
 # category Package
 # catalog-ctan /support/m-tx
-# catalog-date 2013-01-20 14:45:16 +0100
+# catalog-date 2013-12-25 07:39:11 +0100
 # catalog-license gpl
-# catalog-version 0.60d 2013-01-19
+# catalog-version 0.60d
 Name:		texlive-m-tx
 Version:	0.60d
-Release:	6
+Release:	7
 Summary:	A preprocessor for pmx
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/m-tx
@@ -45,7 +45,7 @@ M-Tx continues in use by those who prefer its language.
 %doc %{_texmfdistdir}/doc/generic/m-tx/mtx-install.tex
 %doc %{_texmfdistdir}/doc/generic/m-tx/mtx060.pdf
 %doc %{_texmfdistdir}/doc/generic/m-tx/mtx060/Makefile
-%doc %{_texmfdistdir}/doc/generic/m-tx/mtx060/README
+%doc %{_texmfdistdir}/doc/generic/m-tx/mtx060/README.M-Txdoc
 %doc %{_texmfdistdir}/doc/generic/m-tx/mtx060/borup.mtx
 %doc %{_texmfdistdir}/doc/generic/m-tx/mtx060/chord.mtx
 %doc %{_texmfdistdir}/doc/generic/m-tx/mtx060/dertod.mtx
