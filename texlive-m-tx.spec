@@ -6,7 +6,7 @@
 # catalog-version 0.60d
 Name:		texlive-m-tx
 Version:	0.60d
-Release:	10
+Release:	11
 Summary:	A preprocessor for pmx
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/m-tx
