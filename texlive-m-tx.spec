@@ -1,5 +1,5 @@
 Name:		texlive-m-tx
-Version:	0.63
+Version:	0.63a
 Release:	1
 Summary:	A preprocessor for pmx
 Group:		Publishing
