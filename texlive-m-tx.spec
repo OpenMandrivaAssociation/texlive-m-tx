@@ -1,6 +1,6 @@
 Name:		texlive-m-tx
 Version:	0.63a
-Release:	2
+Release:	3
 Summary:	A preprocessor for pmx
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/m-tx
