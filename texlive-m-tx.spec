@@ -3,7 +3,7 @@ Version:	64182
 Release:	2
 Summary:	A preprocessor for pmx
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/support/m-tx
+URL:		https://www.ctan.org/tex-archive/support/m-tx
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/m-tx.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/m-tx.doc.r%{version}.tar.xz
